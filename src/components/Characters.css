@@ -1,0 +1,126 @@
+.characters-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: #000; /* preto */
+}
+
+/* ===== PARTICULAS (mesmo visual do Hero) ===== */
+.particle-char {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 0, 0, 0.35);
+  border-radius: 50%;
+  filter: blur(4px);
+  animation-name: floatChar;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+@keyframes floatChar {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-80px) translateX(40px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.35;
+  }
+}
+
+/* ===== CARD ===== */
+.character-card {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  z-index: 10; /* acima das partículas */
+  background: rgba(0, 0, 0, 0.55);
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid rgba(170, 0, 0, 0.35);
+  width: 75%;
+  max-width: 900px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 20px rgba(170, 0, 0, 0.28);
+}
+
+.character-image {
+  width: 300px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #aa0000;
+  box-shadow: 0 0 15px #aa0000;
+}
+
+.character-info h2 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff0000;
+  margin: 0;
+}
+
+.character-info p {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #d6d6d6;
+  max-width: 420px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.char-buttons {
+  margin-top: 18px;
+  z-index: 10;
+}
+
+.char-buttons button {
+  margin: 0 10px;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 2px solid #aa0000;
+  color: white;
+  cursor: pointer;
+  transition: 0.22s ease;
+  border-radius: 6px;
+}
+
+.char-buttons button:hover:not(:disabled) {
+  background: #aa0000;
+  box-shadow: 0 0 12px #aa0000;
+}
+
+.char-buttons button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+/* Fade suave ao trocar de personagem */
+.fade-animation {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
