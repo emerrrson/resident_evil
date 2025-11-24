@@ -5,7 +5,7 @@ export default function Navbar ({ goToHero, goToCharacters, goToRequiem }) {
     return (
         <nav className="navbar">
         <ul>
-        <li onClick={goToHero}>HERÓIS </li>
+        <li onClick={goToHero}> INÍCIO </li>
         <li onClick={goToCharacters}> PERSONAGENS</li>
         <li onClick={goToRequiem}> NOVIDADES</li>
         </ul>

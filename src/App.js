@@ -22,7 +22,7 @@ export default function App() {
       />
 
       <section ref={heroRef}>
-        <Hero />
+        <Hero  onEnter={goToCharacters}/>
       </section>
 
       <section ref={charRef}>

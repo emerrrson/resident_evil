@@ -3,7 +3,26 @@ import "./Hero.css";
 
 export default function Hero({ onEnter }) {
   const [showTransition, setShowTransition] = useState(false);
+
   const handleEnter = () => {
+  // Áudio "Resident Evil"
+  const voiceAudio = new Audio("/sounds/revoice.mp3");
+  voiceAudio.volume = 1;
+
+  // Áudio Save Room
+  const saveRoomAudio = new Audio("/sounds/saveroom.mp3");
+  saveRoomAudio.volume = 0.6;
+  saveRoomAudio.loop = true;
+
+  // Quando o primeiro terminar, iniciar Save Room
+  voiceAudio.addEventListener("ended", () => {
+    saveRoomAudio.play();
+  });
+
+  voiceAudio.play();
+    
+
+
     setShowTransition(true);
 
     // Espera o efeito terminar (1.2s) e chama a parte Characters
