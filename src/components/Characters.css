@@ -1,5 +1,6 @@
 .characters-container {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 80px 0 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -122,5 +123,58 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .character-card {
+    width: 90%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .character-image {
+   width: 220px;
+   height: 260px;
+  }
+
+  .character-info h2 {
+    font-size: 1rem;
+  }
+
+  .character-info p {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .char-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+  }
+
+  .char-buttons button {
+    font-size: 1rem;
+    padding: 8px 14px;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .character-image {
+    width: 200px;
+    height: 230px;
+  }
+
+  .character-info h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+
+  .character-info p {
+    font-size: 0.9rem;
   }
 }

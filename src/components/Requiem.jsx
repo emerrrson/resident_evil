@@ -24,22 +24,19 @@ export default function Requiem() {
         
           <div className="requiem-info">
             <p>
-              Resident Evil: Requiem marca o próximo capítulo da franquia,
-              trazendo uma atmosfera ainda mais sombria, criaturas mutantes mais
-              agressivas e um enredo que promete redefinir o futuro da série.
-              Com a nova engine gráfica aprimorada, o jogo entrega ambientes
-              hiperrealistas, narrativa cinematográfica e mecânicas de
-              sobrevivência implacáveis.
+            Resident Evil: Requiem marks the next chapter of the franchise, delivering an even darker atmosphere, 
+            more aggressive mutant creatures, and a storyline that promises to redefine the future of the series. 
+            Powered by an enhanced new graphics engine, the game delivers hyper-realistic environments, cinematic 
+            storytelling, and relentless survival mechanics.
             </p>
 
             <p>
-              Prepare-se para explorar zonas de quarentena, encarar novos tipos
-              de bio-armas e descobrir os segredos finais por trás do vírus que
-              mudou o mundo.
+              Prepare yourself to explore quarantine zones, face new types of bio-weapons, and uncover the final 
+              secrets behind the virus that changed the world.
             </p>
 
             <h3 className="release-date">
-              LANÇAMENTO: 27 • FEVEREIRO • 2026
+              RELEASE: 27 • FEBRUARY • 2026
             </h3>
           </div>
         </div>

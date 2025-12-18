@@ -9,19 +9,19 @@ export default function Characters() {
     {
       name: "Leon S. Kennedy",
       description:
-        "Um policial novato que ficou preso no caos do surto biológico em Raccoon City. Determinado, focado e sempre pronto para o impossível.",
+        "A rookie police officer trapped in the chaos of the biological outbreak in Raccoon City. Determined, focused, and always ready to face the impossible.",
       image: LeonImg,
     },
     {
       name: "Jill Valentine",
       description:
-        "Ex-membro da S.T.A.R.S., especialista em táticas de sobrevivência. Uma das únicas capazes de enfrentar a Umbrella de frente.",
+        "Former member of S.T.A.R.S., specialist in survival tactics. One of the few capable of confronting Umbrella head-on.",
       image: Jillv,
     },
     {
       name: "Chris Redfield",
       description:
-        "Veterano de combate, membro da BSAA e símbolo de resistência contra ameaças biológicas. Força absoluta.",
+        "Combat veteran, BSAA member, and symbol of resistance against biological threats. Absolute strength.",
       image: Chrisr,
     },
   ];
