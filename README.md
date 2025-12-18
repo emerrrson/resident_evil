@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+🧟 Resident Evil – Interactive Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto pessoal desenvolvido com foco em imersão visual, interatividade e responsividade, inspirado no universo da franquia Resident Evil.
 
-## Available Scripts
+Este é meu segundo contato com React, onde apliquei na prática conceitos fundamentais de Front-end, organização de componentes e experiência do usuário.
 
-In the project directory, you can run:
+🛠️ Tecnologias Utilizadas
 
-### `npm start`
+React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JavaScript (ES6+)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML5
 
-### `npm test`
+CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create React App
 
-### `npm run build`
+✨ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Hero Section com efeitos visuais, partículas e transição cinematográfica
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navbar fixa com navegação suave entre seções
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Seção de Personagens com cards interativos
 
-### `npm run eject`
+Seção de Novidade destacando Resident Evil: Requiem
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Efeitos sonoros para aumentar a imersão
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Layout responsivo, adaptado para mobile e desktop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Animações suaves e ambientação dark inspirada no jogo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Estrutura do Projeto
 
-## Learn More
+src/
+ ├─ components/
+ │   ├─ Hero.jsx
+ │   ├─ Characters.jsx
+ │   ├─ Requiem.jsx
+ │   ├─ Navbar.jsx
+ │
+ ├─ assets/
+ │   ├─ images/
+ │   └─ sounds/
+ │
+ ├─ App.js
+ └─ index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 🚀 Como Executar o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ https://resident-evil-olive.vercel.app/
